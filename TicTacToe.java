@@ -218,7 +218,6 @@ public class TicTacToe {
         // competitive games
         if (!r) {
             str = Integer.toString(findBestMove(board));
-            System.out.println(str);
         }
         // random game
         else {
